@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    background-color:#001120;
+  }
+
+
+   h2 {
+     padding: 30px;
+    margin:20px 10px 20px 40px;
+    text-align: center;
+    font-family: 'Orelega One',sans-serif;
+    color: #FDFFFC;
+  }
+
+  
+ 
+
+
+
+  .menu-lateral{
+    width: 8rem;
+    height:100%;
+  
+    float: left;
+    display: inline;
+    border-right: 2px solid #7C142B;
+    
+    background-color:#001120;
+  }
+
+
+
+  .menu-lateral > ul{
+      margin: 230px  10px  250px  0px;
+      list-style-type: none;
+
+  }
+
+
+  .menu-lateral > ul > li {
+      margin: 70px 0 70px 0;
+      font-family: 'Orelega One',sans-serif;
+      font-size: 18px;
+  }
+
+  .menu-lateral > ul > li > a {
+    text-decoration: none;
+    color: #FDFFFC;
+  }
+
+  .menu-lateral > ul > li :hover {
+    background-color: #f71735;
+    border: 2px solid #f71735;
+    border-radius: 10px;
+    padding: 2px;
+  }
+
+
+footer > a > img{
+  width:40px;
+  margin: 40px 10px 0 20px;
+}
+
+
+
+ 
+
+
+
+  

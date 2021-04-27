@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html,body{
+    height:0 auto;
+    background-color:#001120;
+}
+    h1 {
+        max-width: 500px;
+        text-align: center;
+        margin: 60px auto;
+        font-family: 'Orelega One', sans-serif;
+        color: #FDFFFC;
+        font-size: 60px;
+      }
+    
+      h1::after {
+        content: '|';
+        opacity: 1;
+        margin-left: 5px;
+        display: inline-block;
+        animation: blink .7s infinite;
+      }
+    
+      @keyframes blink {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+
+a > img{
+    margin-top: 50px;;
+  margin-left: 48%;
+  
+  
+  
+}
+
+
+
+
+
+
+   
+
